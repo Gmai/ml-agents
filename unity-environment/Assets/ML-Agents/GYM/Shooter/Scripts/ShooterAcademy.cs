@@ -104,11 +104,6 @@ public class ShooterAcademy : Academy
 				text.Append(ag.transform.parent.name + ": " + ag.CumulativeReward.ToString("0.000") + Environment.NewLine);
 				text.Append("BulletsShoot: " + ag.BulletsShoot.ToString() + Environment.NewLine);
 			}
-			foreach(var sa in _shooterAgents) { 
-				if (!string.IsNullOrEmpty(sa.ExtraText)) {
-					text.Append(sa.ExtraText);
-				}
-			}
 			GUI.TextArea(new Rect(0, 0, 100, 300), text.ToString());
 		}
 	}
