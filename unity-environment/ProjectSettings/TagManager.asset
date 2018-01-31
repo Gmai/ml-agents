@@ -6,6 +6,13 @@ TagManager:
   tags:
   - agent
   - iWall
+  - pit
+  - floor
+  - bomb
+  - bullet
+  - target
+  - wall
+  - enemy
   layers:
   - Default
   - TransparentFX
