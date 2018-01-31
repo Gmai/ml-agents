@@ -30,6 +30,4 @@ That was the scenario that I used in the training bellow:
 
 I used the Curriculum Learning to achieve these results, I started using a fixed position for the targets and after that introduce the movement to the targets, but my Agents were not able to get to the lessons where the targets starts to move.
 
-This is the final result
-
-<iframe width="1000" height="560" src="https://www.youtube.com/embed/GS_8soT_YhQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+This is the final result https://www.youtube.com/embed/GS_8soT_YhQ
